@@ -35,6 +35,8 @@ Progressive Electricity Billing
        O --> Q([Stop])
         P --> Q
                  ```
+<img width="720" height="1048" alt="WhatsApp Image 2026-10-26 at 9 02 38 PM" src="https://github.com/user-attachments/assets/64b31358-9bf5-43b4-9ce3-d12315b75fbc" />
+
     3. Sample Output
 Enter electricity units: 150
 Electricity Bill = 400
