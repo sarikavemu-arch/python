@@ -10,7 +10,8 @@ Progressive Electricity Billing
 8. If units are less than or equal to 100, subtract ₹20 rebate.
 9. Display the final electricity bill.
 10. If bill is greater than ₹500, display "High Bill"; otherwise, display "Normal Bill".
-    ```
+11
+```
      flowchart TD
   A([Start]) --> B[/Enter units/]
     B --> C{Units <= 100?}
@@ -33,5 +34,9 @@ Progressive Electricity Billing
     N -- No --> P[Display Normal Bill]
     O --> Q([Stop])
     P --> Q
-    ```
+  ```
+    3. Sample Output
+Enter electricity units: 150
+Electricity Bill = 400
+Normal Bill
 
