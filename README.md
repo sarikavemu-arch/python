@@ -32,7 +32,4 @@ Progressive Electricity Billing
     N -- No --> P[Display Normal Bill]
     O --> Q([Stop])
     P --> Q```
-3. Sample Output
-Enter electricity units: 150
-Electricity Bill = 400
-Normal Bill
+
