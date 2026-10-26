@@ -11,7 +11,7 @@ Progressive Electricity Billing
 9. Display the final electricity bill.
 10. If bill is greater than ₹500, display "High Bill"; otherwise, display "Normal Bill".
 11
-```
+  ```
     flowchart TD
     A([Start]) --> B[/Enter units/]
      B --> C{Units <= 100?}
