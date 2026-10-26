@@ -1,4 +1,16 @@
-flowchart TD
+1. Algorithm
+Progressive Electricity Billing
+1. Start.
+2. Enter electricity units.
+3. If units are less than or equal to 100, bill = units × 2.
+4. Else if units are less than or equal to 200, bill = 200 + (units − 100) × 3.
+5. Otherwise, bill = 500 + (units − 200) × 5.
+6. Add ₹50 fixed charge to the bill.
+7. If units are greater than 200, add ₹100 surcharge.
+8. If units are less than or equal to 100, subtract ₹20 rebate.
+9. Display the final electricity bill.
+10. If bill is greater than ₹500, display "High Bill"; otherwise, display "Normal Bill".
+11. flowchart TD
   ```  A([Start]) --> B[/Enter units/]
     B --> C{Units <= 100?}
     C -- Yes --> D[Bill = Units * 2]
@@ -20,3 +32,7 @@ flowchart TD
     N -- No --> P[Display Normal Bill]
     O --> Q([Stop])
     P --> Q```
+3. Sample Output
+Enter electricity units: 150
+Electricity Bill = 400
+Normal Bill
