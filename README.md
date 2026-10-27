@@ -9,31 +9,9 @@ Progressive Electricity Billing
 8. If units are greater than 200, add ₹100 surcharge.
 9. If units are less than or equal to 100, subtract ₹20 rebate.
 10. Display the final electricity bill.
-11. If bill is greater than ₹500, display "High Bill"; otherwise, display "Normal Bill".
-11
-  ```
-    flowchart TD
-    A([Start]) --> B[/Enter units/]
-     B --> C{Units <= 100?}
-      C -- Yes --> D[Bill = Units * 2]
-     C -- No --> E{Units <= 200?}
-     E -- Yes --> F[Bill = 200 + Units excess * 3]
-     E -- No --> G[Bill = 500 + Units excess * 5]
-     D --> H[Add 50 fixed charge]
-      F --> H
-      G --> H
-      H --> I{Units > 200?}
-      I -- Yes --> J[Add 100 surcharge]
-      I -- No --> K{Units <= 100?}
-       J --> L[Display final bill]
-       K -- Yes --> M[Subtract 20 rebate]
-       K -- No --> L
-        M --> L
-       L --> N{Bill > 500?}
-       N -- Yes --> O[Display High Bill]
-       N -- No --> P[Display Normal Bill]
-       O --> Q([Stop])
-        P -->
+11. If bill is greater than ₹500, display "High Bill"; otherwise, display "Normal
+12.  <img width="720" height="1048" alt="WhatsApp Image 2026-10-26 at 9 02 38 PM" src="https://github.com/user-attachments/assets/3e492d20-7392-45d9-81ad-acb2e3e13456" />
+
 
 
     3. Sample Output
