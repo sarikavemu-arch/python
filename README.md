@@ -10,7 +10,8 @@ Progressive Electricity Billing
 9. If units are less than or equal to 100, subtract ₹20 rebate.
 10. Display the final electricity bill.
 11. If bill is greater than ₹500, display "High Bill"; otherwise, display "Normal
-12.  <img width="720" height="1048" alt="WhatsApp Image 2026-10-26 at 9 02 38 PM" src="https://github.com/user-attachments/assets/3e492d20-7392-45d9-81ad-acb2e3e13456" />
+12.
+13.  <img width="720" height="1048" alt="WhatsApp Image 2026-10-26 at 9 02 38 PM" src="https://github.com/user-attachments/assets/3e492d20-7392-45d9-81ad-acb2e3e13456" />
 
 
 
